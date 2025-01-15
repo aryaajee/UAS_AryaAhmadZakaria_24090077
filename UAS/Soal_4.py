@@ -22,12 +22,12 @@ class Buah:
     def getRasa(self):
         return self.rasa
     
-apel = Buah()
+mangga = Buah()
 
-apel.setNama("apel")
-apel.setWarna("merah")
-apel.setRasa("manis")
+mangga.setNama("mangga")
+mangga.setWarna("orange")
+mangga.setRasa("manis")
 
-print("nama:", apel.getNama())
-print("warna:", apel.getWarna())
-print("rasa:", apel.getRasa())
+print("nama:", mangga.getNama())
+print("warna:", mangga.getWarna())
+print("rasa:", mangga.getRasa())
